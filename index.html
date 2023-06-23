@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style/style.css">
-   <title>Js-amaliyot__choose</title>
+   <title>Js-choose</title>
 </head>
+
 <body>
+
+
    <h1>Hello World!</h1>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum corporis facere velit magni, unde quod laudantium impedit enim obcaecati modi voluptatem aliquam omnis quaerat odit tenetur nulla, aliquid minus atque.</p>
+
+   <div class="container">
+      <div class="row">
+         <ul class="ul-list">
+            <li class="list-item">
+               <input class="round" id="ch" type="radio" value=""><label for="ch">Choose title</label>
+               <h3 id="show">Choose title content</h3>
+            </li>
+            <li class="list-item">
+               <input class="round" name="2" id="see" type="radio" value="">
+               <label for="see">Choose description</label>
+               <button id="btn-title" type="submit">Submit title</button>
+            </li>
+            <li class="list-item">
+               <input class="round" id="con" type="radio" value=""> <label for="con">Confirm data</label>
+            </li>
+         </ul>
+      </div>
+      <div id="display-none">
+            <button id="but-btn">Back</button><button id="sub-btn">Submit description</button> <br>
+            <!--<button>No go back</button>  <button>Yes, go ahead</button>-->
+      </div>
+   </div>
+
 
    <script src="script.js"></script>
 </body>
+
 </html>
