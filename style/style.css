@@ -22,6 +22,7 @@ h1 {
 .container {
    width: 500px;
    height: 140px;
+   position: relative;
    background-color: #fff;
    position: absolute;
    top: 50%;
@@ -44,9 +45,9 @@ input {
    margin-right: 8px;
 }
 
-.container .ul-list .list-item label {
-   margin-right: 130px;
-}
+/*.container .ul-list .list-item label {
+   margin-right: 40px;
+}*/
 
 .container .ul-list .list-item button#btn-title {
    padding: 8px 15px;
@@ -58,3 +59,14 @@ input {
    height: 25px;
    border-radius: 50%;
 }
+
+#display-none {
+   position: absolute;
+   top: 60px;
+   left: 230px;
+}
+
+/*.active {
+   color: #000;
+   font-weight: bold;
+}*/
