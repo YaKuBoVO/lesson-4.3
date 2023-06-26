@@ -10,29 +10,30 @@
 
 <body>
    <h1>Hello World!</h1>
-
    <div class="container">
       <div class="row">
          <ul class="ul-list">
             <li class="list-item">
-               <input class="round"  id="ch" type="radio" value="1"><label id="choose" class="active" for="ch">Choose title</label>
+               <input class="round" id="ch" type="radio" value="1"> <span id="round" class="active round1">1</span>
+               <label id="choose"  for="ch">Choose title</label>
                <h3 id="show">Choose title content</h3>
             </li>
             <li class="list-item">
-               <input class="round" name="2" id="see" type="radio" value="2">
+               <input class="round" name="2" id="see" type="radio" value="2"> <span id="round" class=" round2">2</span>
                <label id="el-see" for="see">Choose description</label>
                <button id="btn-title" type="submit">Submit title<button>
             </li>
             <li class="list-item">
-               <input class="round" id="con" type="radio" value="3"> <label id="el-con" for="con">Confirm data</label>
+               <input class="round" id="con" type="radio" value="3"> <span id="round" class="round3">3</span>
+               <label id="el-con" for="con">Confirm data</label>
             </li>
          </ul>
-         
+
          <div id="display-none">
-            <button id="but-btn">Back</button>
-            <button id="sub-btn">Submit description</button> <br>
-            <button id="no-back">No, go back</button> 
-            <button id="yes-no">Yes, go ahead</button>
+            <button type="submit" id="but-btn">Back</button>
+            <button type="submit" id="sub-btn">Submit description</button> <br>
+            <button type="submit" id="no-back">No, go back</button>
+            <button type="submit" id="yes-no">Yes, go ahead</button>
          </div>
       </div>
    </div>
